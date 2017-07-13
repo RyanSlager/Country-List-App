@@ -1,0 +1,6 @@
+C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\CountryListApp\obj\Debug\CountryListApp.csprojResolveAssemblyReference.cache
+C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\CountryListApp\bin\Debug\CountryListApp.exe.config
+C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\CountryListApp\bin\Debug\CountryListApp.exe
+C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\CountryListApp\bin\Debug\CountryListApp.pdb
+C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\CountryListApp\obj\Debug\CountryListApp.exe
+C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\CountryListApp\obj\Debug\CountryListApp.pdb
