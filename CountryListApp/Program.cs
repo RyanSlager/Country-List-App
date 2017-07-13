@@ -13,15 +13,13 @@ namespace CountryListApp
         {
 
             string path = @"C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\countries.txt";
-            List<string> countries = new List<string>();
-            List<string> newCountries = new List<string>();
-            CountryWriter country = new CountryWriter(path);
+            CountryAppMenu menu = new CountryAppMenu(path);
+            bool cont = menu.DrawMenu();
 
-            country.OpenFile(path);
-            countries = country.ScanFile(path);
-            newCountries = country.AddCountries(countries, path);
-
-
+            while (cont)
+            {
+                cont = menu.DrawMenu();
+            }
         }
 
 

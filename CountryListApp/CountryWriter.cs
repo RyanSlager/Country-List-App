@@ -31,11 +31,6 @@ namespace CountryListApp
         {
             List<string> lines = File.ReadAllLines(path).ToList<string>();
 
-            foreach (string line in lines)
-            {               
-                Console.WriteLine(line);
-            }
-
             return lines;
         }
 
