@@ -22,7 +22,7 @@ namespace CountryListApp
             {
                 Console.WriteLine("File not found, creating...");
                 StreamWriter writer = new StreamWriter(File.Create(path));
-                Console.WriteLine("No Countries here, old man.");
+                writer.WriteLine("No Countries here, old man.");
                 writer.Close();
             }
         }
