@@ -62,7 +62,10 @@ namespace CountryListApp
 
             for(int i = 0; i < countries.Count; i++)
             {
-                Console.WriteLine(countries[i]+"\n");
+                if (i != 0)
+                {
+                    Console.WriteLine($"{i}) " + countries[i] + "\n");
+                }
             }
         }
     }

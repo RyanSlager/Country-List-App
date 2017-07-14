@@ -1,10 +1,4 @@
-3
-yemen
-America
-Italy
-Belguim
-France
-Russia
-Zimbabwe
-Kenya
-Costa Rica
+Mexico
+China
+India
+Georgia

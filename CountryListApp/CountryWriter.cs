@@ -22,14 +22,14 @@ namespace CountryListApp
             {
                 Console.WriteLine("File not found, creating...");
                 StreamWriter writer = new StreamWriter(File.Create(path));
-                writer.WriteLine("Countries List:");
+                Console.WriteLine("No Countries here, old man.");
                 writer.Close();
             }
         }
 
         public List<string> ScanFile(string path)
         {
-            List<string> lines = File.ReadAllLines(path).ToList<string>();
+            List<string> lines = File.ReadAllLines(path).ToList();
 
             return lines;
         }

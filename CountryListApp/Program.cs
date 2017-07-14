@@ -14,6 +14,9 @@ namespace CountryListApp
 
             string path = @"C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\countries.txt";
             CountryAppMenu menu = new CountryAppMenu(path);
+            CountryWriter cw = new CountryWriter(path);
+            cw.OpenFile(path);
+
             bool cont = menu.DrawMenu();
 
             while (cont)
