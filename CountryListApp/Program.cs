@@ -11,7 +11,6 @@ namespace CountryListApp
     {
         static void Main(string[] args)
         {
-
             string path = @"C:\Users\slage\Desktop\C# Bootcamp\CountryListApp\countries.txt";
             CountryAppMenu menu = new CountryAppMenu(path);
             CountryWriter cw = new CountryWriter(path);
